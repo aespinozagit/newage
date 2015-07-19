@@ -18,12 +18,35 @@ body {
 
 .headerForSearch {
     color: rgba(255, 255, 255, .6);
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .self {
     margin-top: 0px;
 }
+
+.underline {
+    text-decoration: underline;
+}
+
+hr.line {
+    height: 30px;
+    border-style: solid;
+    border-color: #F35EAC;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.line:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #F35EAC;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
 
 .scroll-top {
     z-index: 1049;
@@ -59,9 +82,41 @@ body {
     font-size: 1.5em;
 }
 
+.facebookI {
+    margin: 2em 0 0 0;
+}
+.map {
+    margin: 1em 0 5em 0;
+}
+
 .marginTop {
     margin: 1em;
 }
+ h2.location {
+    color: white;
+    font-size: 2em;
+ }
+img.pic {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+img.pic:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
+
+#map-canvas {
+    width: 500px;
+    height: 400px;
+    background-color: #CCC;
+  }
+
 .text-muted {
     color: #777;
 }
@@ -323,6 +378,9 @@ fieldset[disabled] .btn-xl.active {
         margin: 5px -11px 0px 0px;
         height: 45px;
     }
+    .headerForSearch {
+    font-size: .5em;
+}
 }
 
 header {
@@ -400,6 +458,11 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+}
+
+#contact h3.section-subheading {
+    color: white;
+    font-size: 1.5em;
 }
 
 @media(min-width:768px) {
@@ -556,7 +619,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #F35EAC;
 }
 
 .timeline>li .timeline-image h4 {
@@ -591,7 +654,7 @@ section h3.section-subheading {
 
 .timeline .timeline-heading h4 {
     margin-top: 0;
-    color: inherit;
+    color: #F35EAC;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -716,7 +779,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    /*background-image: url(../img/map-image.png);*/
     background-position: center;
     background-repeat: no-repeat;
 }
