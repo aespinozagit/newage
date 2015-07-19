@@ -59,6 +59,9 @@ body {
     font-size: 1.5em;
 }
 
+.marginTop {
+    margin-top: 1em;
+}
 .text-muted {
     color: #777;
 }
