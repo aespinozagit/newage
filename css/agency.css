@@ -354,7 +354,7 @@ header .intro-text .intro-heading {
     font-size: 36px;
     font-weight: 700;
     line-height: 50px;
-    text-shadow: 11px 5px 14px #EE0E83;
+    text-shadow: 1px 3px 1px #EE0E83;
 }
 
 @media(min-width:768px) {
