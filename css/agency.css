@@ -47,6 +47,9 @@ hr.line:before {
     border-radius: 20px;
 }
 
+.white {
+    color: white;
+}
 
 .scroll-top {
     z-index: 1049;
