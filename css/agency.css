@@ -440,15 +440,16 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    text-shadow: 2px 2px 6px rgba(150, 150, 150, 1);
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 50px;
-    text-shadow: 1px 3px 1px #EE0E83;
+    text-shadow: 2px 2px 6px rgba(150, 150, 150, 1);
 }
 
 @media(min-width:768px) {
@@ -463,14 +464,16 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        text-shadow: 2px 2px 6px rgba(150, 150, 150, 1);
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        font-family: 'Roboto', sans-serif;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 51px;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 75px;
+        text-shadow: 2px 2px 6px rgba(150, 150, 150, 1);
     }
 }
 
