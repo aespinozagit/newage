@@ -70,7 +70,7 @@
 .show-hide-contact-bar,
 .contact-button-link.show-hide-contact-bar:focus,
 .contact-button-link.show-hide-contact-bar:active {
-  background: transparent;
+  background: #F35EAC;
   color: #000;
   border: 0;
   outline: 0;
