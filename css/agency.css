@@ -423,7 +423,10 @@ fieldset[disabled] .btn-xl.active {
     }
     .headerForSearch {
     font-size: .5em;
-}
+    }
+    h2.noncaps {
+        font-size: 23px;
+    }
 }
 
 header {
