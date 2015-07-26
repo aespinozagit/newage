@@ -9,6 +9,7 @@
  */
  
  #contact-buttons-bar {
+  z-index: 100;
   position: fixed;
   top: 120px;
   left: -50px;
@@ -29,7 +30,7 @@
   text-align: center;
   line-height: 50px;
   font-size: 22px;
-  background: #2d2d2d;
+  background: rgba(45,45,45,.5);
   color: #fff;
   position: relative;
   left: 0;
@@ -48,19 +49,19 @@
   color: #fff;
   padding-left: 20px;
   width: 70px;
-  background: #F35EAC;
+  background: rgba(243,94,172,.5);
 }
 .contact-button-link.cb-hidden {
   left: -50px;
 }
 .contact-button-link.facebook {
-  background: #6279B1;
+  background: rgba(98,121,177,.5);
 }
 .contact-button-link.linkedin {
   background: #0077b5;
 }
 .contact-button-link.gplus {
-  background: #d34836;
+  background: rgba(211,72,54,.5);
 }
 
 .contact-button-link.separated {
@@ -70,7 +71,7 @@
 .show-hide-contact-bar,
 .contact-button-link.show-hide-contact-bar:focus,
 .contact-button-link.show-hide-contact-bar:active {
-  background: #F35EAC;
+  background: rgba(243,94,172,.5);
   color: #000;
   border: 0;
   outline: 0;
@@ -79,7 +80,7 @@
 }
 .contact-button-link.show-hide-contact-bar:hover {
   color: #000;
-  background: #ccc;
+  background: rgba(204,204,204,.5);
   padding: 0;
   width: 50px;
 }

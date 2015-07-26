@@ -51,6 +51,16 @@ hr.line:before {
     color: white;
 }
 
+.noncaps {
+   text-transform: lowercase; 
+}
+/*Paralax*/
+#image {
+    position: relative;
+    z-index: -1;
+}
+
+
 /*thumbnal styles*/
 .thumbnails img {
     max-width: 100%;
